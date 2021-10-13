@@ -345,3 +345,26 @@ main {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
+/* ==== TESTIMONIALS============ */
+#testimonials {
+  background: white;
+}
+#testimonials blockquote {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0, 08);
+  border-radius: 0.25rem;
+}
+#testmonials blockquote p {
+  position: relative;
+  text-indent: 1.85rem;
+  margin-bottom: 1.5rem;
+}
+#testmonials blockquote p span {
+  font: 700 3rem serif;
+
+  position: absolute;
+  top: -0.5rem;
+  left: -1.875rem;
+  color: var(--base-color);
+}
