@@ -10,6 +10,13 @@
 
     <link rel="stylesheet" href="/assets/icons/style.css" />
 
+     <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+
     <!-- STYLES -->
     <link rel="stylesheet" href="/style/global.css" />
 
@@ -20,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    
 
     <!--  -->
   </head>
@@ -148,53 +156,65 @@
 
 
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos de clientes</h2>
           </header>
-          <div class="testimonials">
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eum dolore asperiores aliquid blanditiis maiores doloribus veritatis quis architecto? Repudiandae expedita, consectetur ratione quisquam facilis dignissimos esse omnis provident.
-                </p>
-                 <cite>
-                   <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="Imagen de um boneco de lego">
-                   sara damaris
-                 </cite>
-              </blockquote>
-            </div>
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eum dolore asperiores aliquid blanditiis maiores doloribus veritatis quis architecto? Repudiandae expedita, consectetur ratione quisquam facilis dignissimos esse omnis provident.
-                </p>
-                 <cite>
-                   <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="Imagen de um boneco de lego">
-                   Douglas damaris
-                 </cite>
-              </blockquote>
-            </div>
-            <div class="testimonial">
-              <blockquote>
-                <p>
-                  <span>&ldquo;</span>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eum dolore asperiores aliquid blanditiis maiores doloribus veritatis quis architecto? Repudiandae expedita, consectetur ratione quisquam facilis dignissimos esse omnis provident.
-                </p>
-                 <cite>
-                   <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="Imagen de um boneco de lego">
-                   Vitor damaris
-                 </cite>
-              </blockquote>
-            </div>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eum dolore asperiores aliquid blanditiis maiores doloribus veritatis quis architecto? Repudiandae expedita, consectetur ratione quisquam facilis dignissimos esse omnis provident.
+                  </p>
+                   <cite>
+                     <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="Imagen de um boneco de lego">
+                     sara damaris
+                   </cite>
+                </blockquote>
+              </div>
 
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eum dolore asperiores aliquid blanditiis maiores doloribus veritatis quis architecto? Repudiandae expedita, consectetur ratione quisquam facilis dignissimos esse omnis provident.
+                  </p>
+                   <cite>
+                     <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="Imagen de um boneco de lego">
+                     Douglas damaris
+                   </cite>
+                </blockquote>
+              </div>
+              
+              <div class="testimonial swiper-slide" >
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eum dolore asperiores aliquid blanditiis maiores doloribus veritatis quis architecto? Repudiandae expedita, consectetur ratione quisquam facilis dignissimos esse omnis provident.
+                  </p>
+                   <cite>
+                     <img src="https://randomuser.me/api/portraits/lego/0.jpg" alt="Imagen de um boneco de lego">
+                     Vitor damaris
+                   </cite>
+                </blockquote>
+                
+              </div>
+            </div> 
+            <div class="swiper-pagination"></div>
           </div>
+          
+          
+          
         </div>
       </section>
 
     </main>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+
     <script src="main.js"></script>
   </body>
 </html>

@@ -15,7 +15,7 @@ for (const link of links) {
   })
 }
 
-// MUDAR O HEADER DA PAGINA CQUANDO DER SCROLL
+// MUDAR O HEADER DA PAGINA QUANDO DER SCROLL
 
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
@@ -26,4 +26,14 @@ window.addEventListener('scroll', function () {
   } else {
     header.classList.remove('scroll')
   }
+})
+
+// Swiper
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true
 })
